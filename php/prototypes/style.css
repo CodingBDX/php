@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+.container {
+  
+  max-width: 70vw;
+  margin: 40px auto 0 auto;
+}
+
+.addimages {
+  width: 70vw;
+  margin: 40px auto;
+  background-color: aliceblue;
+  min-height: 300px;
+  padding: 40px 40px;
+}
+.addimages h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+}
+
+label {
+  display: block;
+}
+
+form > div {
+  margin-bottom: 1rem;
+}
+form {
+  margin-top: 2rem;
+}
+
+.showimage {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+   justify-content: center;
+ 
+}
+
+.polaroid {
+  flex-basis: 400px;
+  height: 400px;
+  
+  padding: 4rem;
+  background-color: violet;
+  
+}
+.polaroid_image {
+  width: 100%;
+  height: 300px;
+}
+
+
+.polaroid_image > img {
+ display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
