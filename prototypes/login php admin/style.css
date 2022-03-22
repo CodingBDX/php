@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@1,700&display=swap');
+
+body {
+  width: 99%;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1604537466158-719b1972feb8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80") ;
+  background-position: center center;
+  background-repeat: no-repeat;
+  font-family: Playfair Display SC;
+}
+.container {
+  opacity: .9;
+  width: 30vw;
+  border-radius: .5rem;
+  min-height: 50vh;
+  background-color: white;
+  padding: 1rem 1.3rem;
+  display: flex;
+  flex-direction: column;
+  margin: 10vh auto;
+  height: auto;
+}
+.login-register-text {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  color: blueviolet;
+  font-weight: bolder;
+}
+.login-register-text a{
+  text-decoration: none;
+  color: darkgray;
+}
+
+
+.container .login-text{
+  color: blueviolet;
+  font-weight: 500;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: .5rem;
+  display: block;
+  text-transform: uppercase;
+
+}
+
+.container .login-email {
+  text-align: center;
+}
+.container .login-email .input-group {
+  margin-bottom: .5rem;
+  height: 2rem;
+}
+.container .login-email .input-group input {
+  height: 2rem;
+  font-size: 1.2rem;
+  color: darkgray;
+}
+.container .login-email .input-group .btn {
+  color: white;
+  background-color: blueviolet;
+  padding: .5rem .5rem;
+  border-radius: .4rem;
+  display: block;
+  text-align: center;
+  margin: 1rem auto;
+  font-size: 1.3rem;
+  
+}
