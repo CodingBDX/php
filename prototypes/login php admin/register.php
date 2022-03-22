@@ -13,7 +13,7 @@ if($password == $cpassword){
   
 
   if($result->num_rows > 0){
-   echo "<script>alert('user already exist')</script>";
+   $already =  "user already exist";
 
   }else{
  $sql = "INSERT INTO `users` (username, email, password) VALUES ('$username', '$email', '$password')";
@@ -25,8 +25,10 @@ $username = "";
 $email = "";
 $_POST['password'] = "";
 $_POST['cpassword'] = "";
-header('location:index.php'); 
 $success =  "you are register";
+
+header('location:index.php'); 
+
 }else {
    echo "<script>alert('eror register')</script>";
 
@@ -71,6 +73,8 @@ $success =  "you are register";
         <input required type="password"  value="<?php echo $cpassword ?>" placeholder="Confirm password" name="cpassword" class="password">
       </div>
       <p><?php echo $errorCpassword; ?></p>
+      <p><?php echo $already; ?></p>
+
       <div class="input-group">
         <button name="submit" class="btn">register</button>
       </div>
