@@ -1,0 +1,11 @@
+.form-div {
+  margin-top: 6rem;
+  border: .5rem solid grey;
+  padding: 1rem 0 0 0;
+}
+#profileDisplay {
+  display: block;
+  width: 7rem;
+  margin: 1rem auto;
+  border-radius: 50%;
+}
